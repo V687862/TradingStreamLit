@@ -1,0 +1,25 @@
+# config.yaml
+
+data:
+  file_path: "data/CLV-USD_historical_data.csv"
+
+parameters:
+  rpm_period: 14
+  macd_fast: 12
+  macd_slow: 26
+  macd_signal: 9
+  rsi_period: 14
+  cci_period: 20
+  bbo_period: 16
+  supertrend_period: 10
+  supertrend_multiplier: 3.0
+  stochastic_k_period: 14
+  stochastic_d_period: 3
+  stochastic_k_smoothing: 1
+
+optimization:
+  max_evals: 100
+
+backtest:
+  initial_balance: 1000
+  fee_rate: 0.001
